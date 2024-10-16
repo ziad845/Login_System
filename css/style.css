@@ -1,0 +1,79 @@
+body {
+    font-family: "Poppins", sans-serif;  
+}
+
+.bg-main-color {
+    background-color: #1c1c39;
+}
+
+a {
+    text-decoration: none;
+}
+/**************/
+.logout-logo h2, 
+.logo h2 {
+    color: #d4b0b5;
+}
+
+.logout-logo {
+    top: 25px;
+    right: 40px;
+    cursor: pointer;
+    /* @media (width <= 767px) {
+        
+    } */
+}
+
+label {
+    top: -10px;
+    left: 15px;
+    font-size: 14px !important;
+}
+
+.form-control {
+    background-color: #1c1c39 !important;
+    border: #fff 1px solid; 
+}
+
+.form-control:focus {
+    box-shadow: unset !important;
+    background-color: #1c1c39 ;
+}
+
+.btn {
+    background-color: rgb(78, 79, 235);
+    border: none !important;
+    outline: none !important;
+}
+
+.btn:hover {
+    background-color: rgba(78, 79, 235, 0.7) !important;
+}
+
+.box-shadow {
+    box-shadow: rgba(0, 0, 0, 0.5) -5px 0 15px 0;
+}
+
+.img-box {
+    background-image: url(./../images/Background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+     
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0px 1000px #1c1c39 inset !important;
+    -webkit-text-fill-color: #fff !important;
+    caret-color: #fff !important;
+}
+
+.btn:focus-visible,
+:not(.btn-check)+.btn:active {
+    background-color: rgb(78, 79, 235) !important;
+    box-shadow: unset !important;
+    border-color: unset !important;
+}
